@@ -12,6 +12,11 @@ description = "Annotate VCF variants with labels from a BED/TSV file"
 name = "rsomics-vcf-annotate"
 path = "src/main.rs"
 
+
+[lib]
+name = "rsomics_vcf_annotate"
+path = "src/lib.rs"
+doctest = false
 [dependencies]
 rsomics-common = { version = "0.6" }
 rsomics-intervals = { version = "0.1" }
